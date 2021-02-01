@@ -1,0 +1,391 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-image: linear-gradient(to top left,black,white);
+}
+.title
+{
+    font-family: PT Serif;
+    margin-left: 243px;
+}
+.presentation
+{
+    font-family: Poppins;
+    margin-right: 265px;
+    width: 350px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+section 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: space-around;
+}
+.image1,.image2,.image3,.image4,.image5,.image6
+{
+    position: relative;
+}
+.image1,.image4
+{
+    margin-left: 215px;
+}
+.image3,.image6
+{
+    margin-right: 265px;
+}
+.image2
+{
+    margin-top: 100px;
+}
+.image4,.image6
+{
+    margin-top: 50px;
+}
+.image5
+{
+    margin-top: 125px;
+}
+section h3
+{
+    font-family: Poppins;
+}
+section p
+{
+    font-family: PT Serif;
+    font-weight: bold;
+}
+.role1
+{
+    position: absolute;
+    top: 40px;
+    right: -80px;
+    transform: rotate(90deg);
+}
+.role2
+{
+    position: absolute;
+    top: 30px;
+    right: -70px;
+    transform: rotate(90deg);
+}
+.role3
+{
+    position: absolute;
+    top: 15px;
+    right: -55px;
+    transform: rotate(90deg);
+}
+.role4
+{
+    position: absolute;
+    top: 25px;
+    right: -65px;
+    transform: rotate(90deg);
+}
+.role5
+{
+    position: absolute;
+    top: 20px;
+    right: -60px;
+    transform: rotate(90deg);
+}
+.role6
+{
+    position: absolute;
+    top: 25px;
+    right: -65px;
+    transform: rotate(90deg);
+}
+footer
+{
+    text-align: center;
+    font-family: Montserrat;
+    margin-left: auto;
+    margin-right: auto;
+}
+section img
+{
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 1260px)
+{
+    body
+    {
+        background-image: linear-gradient(to bottom right,black,white);
+    }
+    .title,.presentation
+    {
+        margin: 0;
+    }
+    header
+    {
+        flex-direction: column;
+    }
+    section
+    {
+        justify-content: space-around;
+    }
+    .image1
+    {
+        margin-left: 100px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image2
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image3
+    {
+        margin-left: 10px;
+        margin-right: 100px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image4
+    {
+        margin-left: 100px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image5
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image6
+    {
+        margin-left: 10px;
+        margin-right: 100px;
+        max-width: 100%;
+        height:auto;
+    }
+}
+@media (max-width: 962px)
+{
+    .image1
+    {
+        margin-left: 100px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image2
+    {
+        margin-left: 10px;
+        margin-right: 100px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image3
+    {
+        margin-left: 100px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image4
+    {
+        margin-left: 10px;
+        margin-right: 100px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image5
+    {
+        margin-left: 100px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image6
+    {
+        margin-left: 10px;
+        margin-right: 100px;
+        max-width: 100%;
+        height:auto;
+    }
+}
+@media (max-width:706px)
+{
+    header
+    {
+        margin-left: 10px;
+    }
+    .image1
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image2
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image3
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image4
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image5
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+    .image6
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 100%;
+        height:auto;
+    }
+}
+@media(max-width:562px)
+{
+    body
+    {
+        background-size: 0;
+        background-color: #333333;
+    }
+}
+@media(max-width:520px)
+{
+    section img
+    {
+        max-width: 50%; 
+        height: auto;
+    }
+    .role1
+    {
+        position: absolute;
+        right:30px;
+    }
+    .role2
+    {
+        position: absolute;
+        right: 45px;
+    }
+    .role3
+    {
+        position: absolute;
+        right: 55px;
+    }
+    .role4
+    {
+        position: absolute;
+        right: 45px;
+    }
+    .role5
+    {
+        position: absolute;
+        right: 55px;
+    }
+    .role6
+    {
+        position: absolute;
+        right: 45px;
+    }
+    header
+    {
+        margin-left: 10px;
+    }
+    .image1
+    {
+        margin-left: 0;
+        margin-right: -40px;
+    }
+    .image2
+    {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+    .image3
+    {
+        margin-left: 0;
+        margin-right: -40px;
+    }
+    .image4
+    {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+    .image5
+    {
+        margin-left: 0;
+        margin-right: -40px;
+    }
+    .image6
+    {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+}
+@media (max-width:401px)
+{
+    .image1
+    {
+        margin-left: 0px;
+        margin-right: -80px;
+    }
+    .image2
+    {
+        margin-left: 0px;
+        margin-right: -100px;
+    }
+    .image3
+    {
+        margin-left: 0px;
+        margin-right: -80px;
+    }
+    .image4
+    {
+        margin-left: 0px;
+        margin-right: -100px;
+    }
+    .image5
+    {
+        margin-left: 0px;
+        margin-right: -80px;
+    }
+    .image6
+    {
+        margin-left: 0px;
+        margin-right: -100px;
+    }
+}
